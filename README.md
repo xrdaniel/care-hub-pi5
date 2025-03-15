@@ -1,4 +1,4 @@
-# 💙 CareHub - Projeto Integrador V - SENAC
+#  CareHub - Projeto Integrador V - SENAC
 
 > _Sistema de gestão de saúde digital simples, funcional e moderno._
 
