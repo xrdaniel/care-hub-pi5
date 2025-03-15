@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply bg-gray-100 text-gray-900;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  @apply text-blue-500 hover:text-blue-700 transition-colors;
+}
+
+button {
+  @apply px-4 py-2 rounded-md bg-blue-600 text-white font-semibold transition-all duration-300;
+}
+
+button:hover {
+  @apply bg-blue-700;
+}
+
+h1 {
+  @apply text-3xl font-bold;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}

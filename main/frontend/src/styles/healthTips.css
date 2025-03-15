@@ -1,0 +1,237 @@
+
+.health-tips-page {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+
+  .tips-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+
+  .tips-container {
+    margin-top: 2%;
+    width: 46%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .health-tracker {
+    margin-top: 2%;
+    width: 46%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+  }
+  
+  
+
+  .tips-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tips-header select {
+    width: 30%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background: white;
+    cursor: pointer;
+  }
+  
+
+  .tips-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+
+  .tip-card {
+    display: flex;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .tip-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  .tip-content h3 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .tip-content p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+
+  .tip-content button {
+    width: 200px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tip-content button:hover {
+    background: #0056b3;
+  }
+  
+  
+  .monitor-box {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  
+  
+  .progress-section {
+    position: relative;
+    width: 100%;
+  }
+  
+  .progress-bar {
+    height: 15px;
+    border-radius: 5px;
+    background: #ddd;
+    margin-top: 5px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background: #28a745;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .buttons button {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+  }
+  
+  .buttons button:hover {
+    background: #0056b3;
+  }
+  
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1000;
+    max-width: 600px;
+    width: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  .popup-content button {
+    align-self: flex-end;
+    background: white;
+    color: #007bff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .popup-content button:hover {
+    background: #f1f1f1;
+  }
+
+  .ver-mais-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ver-mais-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+ 
+  @media (max-width: 768px) {
+    .tips-section {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .popup {
+       width: 80%;
+     }
+  
+    .tips-container,
+    .health-tracker {
+      width: 100%; 
+    }
+  
+    .tips-header select {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  

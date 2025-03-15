@@ -1,0 +1,171 @@
+.gerenciar-usuarios-page {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  padding: 15px 30px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.dashboard-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.dashboard-nav .active {
+  border-bottom: 3px solid white;
+}
+
+.dashboard-nav .logout {
+  background: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.usuarios-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.form-cadastro input,
+.form-cadastro select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-cadastro button {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.mensagem-erro {
+  color: red;
+  background-color: #ffe6e6;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.usuarios-lista ul {
+  list-style: none;
+  padding: 0;
+}
+
+.usuario-item {
+  background: #f1f1f1;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-left: 5px solid #007bff;
+}
+
+.usuario-item div:first-child {
+  flex: 1;
+  min-width: 220px;
+}
+
+.user-cargo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.user-cargo select {
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 130px;
+}
+
+.btn-salvar {
+  padding: 6px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-salvar:hover {
+  background-color: #218838;
+}
+
+.btn-excluir {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-excluir:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+  .dashboard-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .usuario-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user-cargo {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .user-cargo select,
+  .btn-salvar,
+  .btn-excluir {
+    width: 100%;
+  }
+}
