@@ -19,7 +19,7 @@ O **CareHub** foi criado para facilitar o cuidado com a saúde de forma prática
 
 ## 📹 Demonstração do Projeto
 
-🎥 Um vídeo completo explicando o projeto está disponível no perfil **[_xrdan](https://www.tiktok.com/@_xrdan)** no TikTok.
+🎥 Um vídeo completo explicando o projeto está disponível no perfil **(https://www.youtube.com/watch?v=DkRUHjjEMU8)** no Youtube.
 
 Acesse para entender o funcionamento, as funcionalidades e como utilizá-lo.
 
