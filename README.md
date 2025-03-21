@@ -84,7 +84,7 @@ care-hub-pi5/
 ├── frontend/
 │   └── ... telas ReactJS
 │
-├── pages/
+├── docs/
 │   └── index.html (Landing Page)
 │
 └── README.md
