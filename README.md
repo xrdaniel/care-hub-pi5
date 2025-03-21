@@ -19,7 +19,7 @@ O **CareHub** foi criado para facilitar o cuidado com a saúde de forma prática
 
 ## 📹 Demonstração do Projeto
 
-🎥 Um vídeo completo explicando o projeto está disponível no perfil **[_xrdan](https://www.tiktok.com/@_xrdan)** no TikTok.
+🎥 Um vídeo completo explicando o projeto está disponível no **(https://www.youtube.com/watch?v=DkRUHjjEMU8)** no Youtube.
 
 Acesse para entender o funcionamento, as funcionalidades e como utilizá-lo.
 
@@ -84,7 +84,7 @@ care-hub-pi5/
 ├── frontend/
 │   └── ... telas ReactJS
 │
-├── pages/
+├── docs/
 │   └── index.html (Landing Page)
 │
 └── README.md
@@ -94,7 +94,7 @@ care-hub-pi5/
 
 > O banco de dados utilizado neste projeto está hospedado no **TemboDB (PostgreSQL na nuvem)**.
 
-Por questões de segurança e privacidade, o banco **não foi incluído diretamente no repositório**, mas está disponível em ambiente próprio e acessível apenas ao grupo responsável.
+Por questões de segurança e privacidade, o banco **não foi incluído diretamente no repositório**, mas está disponível em ambiente.
 
 Caso queira executar o sistema localmente, você pode:
 - Utilizar sua própria instância local do PostgreSQL

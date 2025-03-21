@@ -1,0 +1,47 @@
+MODELO FÍSICO DO BANCO DE DADOS - CARE HUB
+
+Tabela: dicas_saude
+  - tip_id (integer) [NOT NULL]
+  - titulo (character varying) [NOT NULL]
+  - descricao (text) [NOT NULL]
+  - imagem (text)
+  - especialidade (character varying) [NOT NULL]
+
+Tabela: fichas_consulta
+  - id (integer) [NOT NULL]
+  - cpf_usuario (character) [NOT NULL]
+  - hospital_id (integer) [NOT NULL]
+  - data_hora (timestamp without time zone) [NOT NULL]
+  - valor (numeric) [NOT NULL]
+  - forma_pagamento (character varying) [NOT NULL]
+  - especialidade (character varying) [NOT NULL]
+
+Tabela: fichas_emergencia
+  - id (integer) [NOT NULL]
+  - cpf_usuario (character) [NOT NULL]
+  - hospital_id (integer)
+  - data_hora (timestamp without time zone)
+  - observacoes (text)
+
+Tabela: hospitais
+  - hospital_id (integer) [NOT NULL]
+  - nome (character varying) [NOT NULL]
+  - endereco (text) [NOT NULL]
+  - telefone (character varying) [NOT NULL]
+
+Tabela: redefinicao_senha
+  - token_id (integer) [NOT NULL]
+  - cpf_usuario (character) [NOT NULL]
+  - token (character varying) [NOT NULL]
+  - data_criacao (timestamp without time zone)
+  - validade (timestamp without time zone) [NOT NULL]
+
+Tabela: usuarios
+  - cpf (character) [NOT NULL]
+  - nome (character varying) [NOT NULL]
+  - email (character varying) [NOT NULL]
+  - senha (character varying) [NOT NULL]
+  - telefone (character varying)
+  - endereco (text)
+  - data_cadastro (timestamp without time zone)
+  - cargo (character varying)
