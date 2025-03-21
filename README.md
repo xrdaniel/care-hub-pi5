@@ -63,11 +63,11 @@ npm install
 /backend/src/config/db.js
 
 4. Inicie o backend:
-cd backend
-npm start
+cd backend/src
+node server.js
 
 5. Inicie o frontend:
-cd frontend
+cd frontend/src
 npm run dev
 
 6. Acesse no navegador:
